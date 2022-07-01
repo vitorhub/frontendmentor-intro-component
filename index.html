@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/reset.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: .8rem;
+      bottom: 0;
+      position: absolute;
+      height: 30px;
+      background-color: #1E1E1E;
+      color: #fff;
+      bottom: 0;
+      width: 100%;
+      margin: auto auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 49%, 76%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <section class="container">
+    <div class="esquerda">
+      <article class="centraliza-artigo">
+
+        <h1>Learn to code by<br>watching others</h1>
+
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
+      </article>
+    </div>
+    <div class="direita">
+      <h2>Try it free 7 days then $20/mo. thereafter</h2>
+      
+      <div class="formulario">
+        <div class="envolve-input">
+          <input type="text" name="First Name" id="first-name" placeholder="First Name">
+          <img class="icone-erro" id="icone-erro" src="images/icon-error.svg" alt="erro">
+        </div>
+        <small class="esconde-advertencia">First Name cannot be empty</small>
+
+        <div class="envolve-input">
+          <input type="text" name="Last Name" id="last-name" placeholder="Last Name">
+          <img class="icone-erro" id="icone-erro" src="images/icon-error.svg" alt="erro">
+        </div>
+        <small class="esconde-advertencia">Last Name cannot be empty</small>
+
+        <div class="envolve-input">
+          <input type="text" name="Email Address" id="email" placeholder="email@example/com">
+          <img class="icone-erro" id="icone-erro" src="images/icon-error.svg" alt="erro">
+        </div>
+        <small class="esconde-advertencia">Looks like this is not an email</small>
+
+        <div class="envolve-input">
+          <input type="password" name="Password" id="password" placeholder="Password">
+          <img class="icone-erro" id="icone-erro" src="images/icon-error.svg" alt="erro">
+        </div>
+        <small class="esconde-advertencia">Password cannot be empty</small>
+
+        <input id="submit" type="submit" value="Claim your free trial">
+      
+        <small class="termos">By clicking the button, you are agreeing to our <span>Terms and Services</span></small>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="src/js/script.js"></script>
+</body>
+
+</html>
